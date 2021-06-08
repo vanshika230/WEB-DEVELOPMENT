@@ -1,0 +1,6 @@
+->if you mention param to be passed in definition and then you dont pass a parameter,you'll get undefined as the value 
+->functions are called first class citizens
+->functions are treated as variables
+->assignment is possible
+->function ka address kisi aur variable mein put kar sakte hai
+->function ki definition kisi aur variable mein out kar sakte ho

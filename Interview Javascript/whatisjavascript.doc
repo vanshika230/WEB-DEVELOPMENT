@@ -1,0 +1,13 @@
+->Javascript runs in JRE- javascript runtime environment
+->logic is written in javascript, different browser implement js differently like google chrome uses v8, firefox uses spidermonkey and apple uses webkit.
+->features,API-given by environment like browser,nodjs,react etc
+->setTimeOut,console.log not part or js these are browser implementations
+->Brendan Eich made js in 10 days.
+->Java-syntax, Self-OOPs based-object se object bante hai, Schema-functional programming  
+->It was named Livescript-oracle copyright 
+->ECMA international- writes ECMA script which writes guidlines-Tc39 commitee
+->vanilla js- simple js
+->nodejs- environment jisme js chalti hai
+->angular/react/vue js - display consumes max power,UI change is more costly
+->optimized Ui change karne ka algorithm likhta hai for beginners
+

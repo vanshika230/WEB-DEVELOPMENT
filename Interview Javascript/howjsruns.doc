@@ -1,0 +1,17 @@
+->code runs in execution context
+->execution context - wrapper 
+    1. global object - created when fnx is created
+    2. this variable - created at runtime
+->the code which is not a part of a function is called global code , or that piece of code is called global area
+->wrapper made for global code is Global Execution context
+->Global Execution context:-
+     global - Node= global object Browser = window
+     this   - Node={}             Browser = window 
+->creation phase gives us global,this.memory allocation
+->memory allocation -> undefined== hoisting
+->functions ccan be called before declaration as well
+
+
+  
+
+
