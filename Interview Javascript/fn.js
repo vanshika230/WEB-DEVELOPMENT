@@ -53,3 +53,26 @@ line number 12 20
 */
 
 
+//4. with parameters
+console.log("line number 1", varname);
+var varname=10;
+function b(param){
+    console.log("line number 3",param);
+       }
+console.log("line number 7",varname);
+function fn(){
+    console.log("line number 9",varname);
+    var varname=20;
+    //fn b definition
+
+    b(varname);//function call
+    console.log("line number 12",varname);
+}
+fn(); 
+
+/* output:-
+line number 1 undefined
+line number 7 10
+line number 9 undefined
+line number 3 20
+line number 12 20 */
