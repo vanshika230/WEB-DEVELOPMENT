@@ -1,39 +1,39 @@
-// const a=10;
-// const arr=[1,2,3,4,5];
-// arr.shift();
-// console.log(arr);
+ const a=10;
+ const arr=[1,2,3,4,5];
+ arr.shift();
+ console.log(arr);
+//output:- [2,3,4,5]
 
 
 //objects
 //key :value
 //string,number :valid type
-// let object={
-//     name:"Vanshika",
-//     lastName: "Mishra",
-//     sayHi: function(){
-//         console.log("vanshika says Hi!");
-//     }
-// }
-// console.log(object);
-// //loop
-// for(let key in object)
-// {
-//     console.log(key," ",object[key]);
-// }
-// object.sayHi();
+ let object={
+     name:"Vanshika",
+     lastName: "Mishra",
+     sayHi: function(){
+         console.log("vanshika says Hi!");
+     }
+ }
+ console.log(object);
+// loop
+ for(let key in object)
+ {
+     console.log(key," ",object[key]);
+ }
+ object.sayHi();
 
-// let arr=[1,2,3,4,5];
-// arr.myprop="hello";
-// console.log(arr);
-// arr.Print=function(){
-//     console.log("hello from array")
-// }
-// for(let key in arr)
-// {
-//     console.log(key," ",arr[key]);
-// }
-
-// console.log(arr);
+ let arr=[1,2,3,4,5];
+ arr.myprop="hello";
+ console.log(arr);
+ arr.Print=function(){
+     console.log("hello from array")
+ }
+ for(let key in arr)
+ {
+     console.log(key," ",arr[key]);
+ 
+ console.log(arr);
 /*
 [ 1, 2, 3, 4, 5, myprop: 'hello' ]
 0   1
@@ -43,13 +43,13 @@
 4   5
 myprop   hello
 Print   [Function (anonymous)]
-[ 1, 2, 3, 4, 5, myprop: 'hello', Print: [Function (anonymous)]
-]
+[ 1, 2, 3, 4, 5, myprop: 'hello', Print: [Function (anonymous)]]
+
 */
 
 //objects are emulated as arrays
 //functions-->object ->key:value
-//extra feature : code property that can be executed when you invoke that function
+//extra feature : code property that the code inside it can be executed when you invoke that function
 function fn()
 {
     console.log("Hello from fn");
