@@ -1,3 +1,12 @@
+//   ->execution context is made when function is called.
+//   ->this is always calculated
+//   ->scope:- area where a function or variable can be found
+//   ->function voh variable ko dhoondhne ke liye andar check karega, fir apne se bahar wale ko, fir aur bahar wale ko .. and so on
+//   ->lexical scope:- outside --> function definition ke outside dekhenge 
+//   -> function definition is given more priority than function call
+//   ->function call ki outside nahi dekhenge
+
+
 var varname=10;
 function fn(){
     var varname=20;

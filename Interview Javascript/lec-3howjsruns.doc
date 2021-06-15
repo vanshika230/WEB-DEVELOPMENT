@@ -7,9 +7,9 @@
 ->Global Execution context:-
      global - Node= global object Browser = window
      this   - Node={}             Browser = window 
-->creation phase gives us global,this.memory allocation
-->memory allocation -> undefined== hoisting
-->functions ccan be called before declaration as well
+->creation phase gives us global,this,memory allocation
+->memory allocation -> undefined called hoisting
+->functions can be called before declaration as well
 
 
   
