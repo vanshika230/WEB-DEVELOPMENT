@@ -1,4 +1,4 @@
-//1. console.log(global)
+ console.log(global)
 // nodejs gives an object
 /*{ <ref *1> Object [global] {
   global: [Circular *1],
@@ -17,12 +17,15 @@
 } } */
 // browser mein global ke similar window hota hai
 
-// 2. console.log(this)
+ 2. console.log(this)
 // {} empty object
 
-// fn();
-// function fn()
-// {
-//     console.log("hello")
-// }
-// fn();
+fn();
+function fn()
+{
+    console.log("hello")
+}
+fn();
+//output:-
+//hello
+//hello
