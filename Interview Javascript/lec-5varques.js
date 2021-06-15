@@ -15,7 +15,7 @@ console.log("line number 2",a);
  fn();
  console.log("line number 2",a);
 
-/*   output:- I expected
+/*   output:-  expected
 line number 2 10
 line number 4 undefined
 line number 7 21
@@ -42,12 +42,8 @@ console.log("letFruit",letFruit,"varFruit",varFruit);
     console.log("letFruit",letFruit,"varFruit",varFruit);
 }
 console.log("letFruit",letFruit,"varFruit",varFruit);
-/* output:- expected
-letFruit orange varFruit orange
-letFruit apple varFruit apple
-letFruit orange varFruit apple
-
-output:-reality
+/*
+output:-
 letFruit orange varFruit orange
 letFruit apple varFruit apple
 letFruit orange varFruit apple
