@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.outerbox {
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 600px;
+    height: 415px;
+    max-width: 100%;
+    
+
+  }
+
+.quiz-header{
+    padding: 4rem;
+
+    width: 600px;
+    height: 100px;
+    background: #a8ff78; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8ff78, #78ffd6);
+  background: linear-gradient(to right, #a8ff78, #78ffd6); 
+}
+
+
+h2 {
+ position: relative;
+bottom: 50px;
+text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+}
+
+ul li label {
+    cursor: pointer;
+}
+button {
+    background-color: #1aa33c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 0.5rem;
+    height: 50px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+button:focus {
+    background-color: greenyellow;
+    outline: none;
+}
+body{
+    background: rgb(254,254,254);
+background: linear-gradient(90deg, rgba(254,254,254,1) 22%, rgba(249,249,249,0.006337569207370497) 54%, rgba(251,249,249,1) 96%);
+    margin-bottom: 100 rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
